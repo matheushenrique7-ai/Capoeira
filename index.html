@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Capoeira</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🥋 Blog da Capoeira</h1>
+    <button id="toggleDark">🌙 Modo</button>
+</header>
+
+<nav>
+    <a href="#historia">História</a>
+    <a href="#movimentos">Movimentos</a>
+    <a href="#mestre">Mestres</a>
+    <a href="#comentarios">Comentários</a>
+</nav>
+
+<section class="card" id="historia">
+    <h2>História da Capoeira</h2>
+    <p>
+        A capoeira nasceu no Brasil colonial entre povos africanos escravizados.
+        Ela mistura luta, dança, música e resistência cultural.
+    </p>
+
+    <button class="saibaMais">Saiba mais</button>
+    <p class="extra"></p>
+
+    <button class="like">👍 Curtir <span>0</span></button>
+</section>
+
+<section class="card" id="movimentos">
+    <h2>Movimentos</h2>
+    <ul>
+        <li>Ginga</li>
+        <li>Meia-lua</li>
+        <li>Armada</li>
+        <li>Queixada</li>
+    </ul>
+
+    <button class="saibaMais">Saiba mais</button>
+    <p class="extra"></p>
+
+    <button class="like">👍 Curtir <span>0</span></button>
+</section>
+
+<section class="card" id="mestre">
+    <h2>Mestres famosos</h2>
+    <p>Mestre Bimba e Mestre Pastinha são referências da capoeira moderna.</p>
+
+    <button class="saibaMais">Saiba mais</button>
+    <p class="extra"></p>
+
+    <button class="like">👍 Curtir <span>0</span></button>
+</section>
+
+<section class="card" id="comentarios">
+    <h2>Comentários</h2>
+
+    <input id="nome" placeholder="Seu nome">
+    <textarea id="comentario" placeholder="Escreva um comentário"></textarea>
+    <button id="enviar">Enviar</button>
+
+    <div id="listaComentarios"></div>
+</section>
+
+<button id="topo">⬆</button>
+
+<script src="script.js"></script>
+</body>
+</html>
