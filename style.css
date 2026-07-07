@@ -1,0 +1,61 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f2f2f2;
+    transition:0.3s;
+}
+
+header{
+    background:#0b5c2b;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav{
+    background:#222;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+}
+
+.card{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+button{
+    margin-top:10px;
+    padding:8px;
+    cursor:pointer;
+}
+
+.like{
+    background:#eee;
+}
+
+#topo{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    display:none;
+    padding:10px;
+}
+
+.dark{
+    background:#111;
+    color:white;
+}
+
+.dark .card{
+    background:#222;
+    color:white;
+}
